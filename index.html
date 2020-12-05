@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row margin-top-md">
+                <div class="twelve columns">
+                    <h1>Lista de Tarefas</h1>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="row margin-top-md">
+                <div class="two columns">&nbsp;</div>
+                <div class="five columns">
+                    <input type="text" name="txtTarefa" id="txtTarefa" placeholder="Informe a tarefa...">
+                </div>
+                <div class="three columns">
+                    <button class="button-primary" id="btnAdicionar">Adicionar Tarefa</button>
+                </div>
+                <div class="two columns">&nbsp;</div>
+            </div>
+            <div class="row margin-top-lg" id="acaoLimpar">
+                <div class="two columns">&nbsp;</div>
+                <div class="five columns">&nbsp;</div>
+                <div class="three columns">
+                    <button class="button-primary" id="btnLimpar">Limpar Lista de Tarefa</button>
+                </div>
+                <div class="two columns">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="two columns">&nbsp;</div>
+                <div class="eight columns">
+                    <ul id="lstTarefas"></ul>
+                </div>
+                <div class="two columns">&nbsp;</div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="twelve columns center">&#xA9; Murilo Sartori<br>DevinHouse - 3ª Semana - To Do List</div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

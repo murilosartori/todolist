@@ -1,0 +1,76 @@
+body {
+    background: no-repeat right bottom fixed;
+    background-image: url(../img/background.png), linear-gradient(to bottom, transparent 50%, rgb(215, 225, 255) 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li input[type="checkbox"] {
+    margin-bottom: 0;
+}
+ul li {
+    margin: 0;
+    border-bottom: 1px solid #33C3F0;
+}
+ul li:nth-child(odd):not(.vazio) {
+    background-color: #bfc1f3;
+}
+
+ul li a {
+    float: right;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.margin-top-xs {margin-top: 5px;}
+.margin-top-sm {margin-top: 10px;}
+.margin-top-md {margin-top: 15px;}
+.margin-top-lg {margin-top: 20px;}
+
+.margin-left-xs {margin-left: 5px;}
+.margin-left-sm {margin-left: 10px;}
+.margin-left-md {margin-left: 15px;}
+.margin-left-lg {margin-left: 20px;}
+
+.padding-xs {padding: 5px;}
+.padding-sm {padding: 10px;}
+.padding-md {padding: 15px;}
+.padding-lg {padding: 20px;}
+
+.center {
+    text-align: center;
+}
+
+.button-primary {
+    float: right;
+}
+
+.vazio {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+label {
+    font-weight: normal;
+    display: inline;
+}
+
+#acaoLimpar {
+    display: none;
+}
